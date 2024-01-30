@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkslategray;
+}
+.titlebar{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+.titlebar:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.container div{
+    width: 200px;
+    color:aliceblue;
+    margin: 10px;
+    flex-basis: 20%;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+
+.container div:hover{
+    cursor: pointer;
+    color:cyan;
+}
